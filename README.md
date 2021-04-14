@@ -1,2 +1,2 @@
-# VL-Backend
-VirtuaLabs Backend
+# DevSocial-Backend
+A social network for developers
