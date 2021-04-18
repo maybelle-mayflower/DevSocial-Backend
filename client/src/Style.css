@@ -191,7 +191,13 @@ img {
 .badge-danger,
 .alert-danger {
   background: var(--danger-color);
+  opacity: 0.8;
   color: #fff;
+  margin-bottom: 1rem;
+  border-radius: 0.35rem;
+  height: 2rem;
+  padding-top: 0.3rem;
+  padding-left: 0.3rem;
 }
 
 .btn-success,
@@ -199,7 +205,13 @@ img {
 .badge-success,
 .alert-success {
   background: var(--success-color);
+  opacity: 0.8;
   color: #fff;
+  margin-bottom: 1rem;
+  border-radius: 0.35rem;
+  height: 2rem;
+  padding-top: 0.3rem;
+  padding-left: 0.3rem;
 }
 
 .btn-white,
