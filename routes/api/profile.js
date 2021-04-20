@@ -23,21 +23,21 @@ router.get('/me', auth,  async (req, res) => {
             return res.status(400).json({msg: 'No profile found for this user'});
         }
 
-        res.json({profile});
+        res.json(profile);
 
     } catch (error) {
         console.error(error.message);
         res.status(500).send('Server Error');
     }
 });
-
+ 
 //@route  POST profile
 //@desc   Create or update logged in user's profile
 //@access private
 
 router.post('/', [auth, [
     check('status', 'Your status is required').not().isEmpty(),
-    check('skills', 'Skills are required').not().isEmpty(),
+    check('skills', 'The skills are required').not().isEmpty(),
 ]], async(req, res) => {
 
     const errors = validationResult(req);
