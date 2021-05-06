@@ -8,11 +8,14 @@ import { logout } from '../../actions/auth';
 
     const authLinks = (
         <ul>
+            <li><Link to="/profiles">Who's Here?</Link></li>
+            <li><Link to="/posts">Posts</Link></li>
             <li><Link to="/dashboard">
                 <i className="fas fa-user"></i>{' '}
                <span className="hide-sm"> Dashboard</span>
                 </Link>
             </li>
+            
             <li>
                 <a onClick={logout} href="#!">
                     <i className="fas fa-sign-out-alt"></i>{' '}
@@ -23,7 +26,7 @@ import { logout } from '../../actions/auth';
     );
     const guestLinks = (
         <ul>
-            <li><Link to="/">Who's Here?</Link></li>
+            <li><Link to="/profiles">Who's Here?</Link></li>
             <li><Link to="/login">Login</Link></li>
         </ul>
     );

@@ -32,7 +32,7 @@ const EditProfile = ({profile:{ profile, loading}, createProfile, getCurrentProf
             instagram: loading || !profile.social.instagram ? '' : profile.social.instagram,
 
         });
-    }, [loading]);
+    }, [loading, getCurrentProfile]);
 
     const {
         company, website, location, status, skills, githubusername,
