@@ -1,2 +1,2 @@
-# DevSocial-Backend
-A social network for developers
+# Femme Dev Social
+A social network for female developers
