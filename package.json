@@ -4,11 +4,11 @@
   "description": "A social networks to support female developers",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build",
     "server" : "nodemon server",
     "client" : "npm run start --prefix client",
-    "dev" : "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "dev" : "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Maybelle",
   "license": "MIT",
