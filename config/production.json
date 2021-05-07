@@ -1,0 +1,7 @@
+{
+    "mongoURI": "mongodb+srv://maybelle:test123@femaledevsconnect.ytmsa.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtSecret" : "mysecrettoken",
+    "githubClientId":"0fad3bd1405e0dcd94e6",
+    "githubSecret" :" 88c221792635f460c654aa97eb6878cc52fb7534"
+
+}
